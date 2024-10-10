@@ -81,7 +81,7 @@ export const SignUpCard = () => {
                                         <Input 
                                             {...field}
                                             type="email"
-                                            placeholder="Enter email adress"
+                                            placeholder="Enter email address"
                                         />
                                     </FormControl>
                                     <FormMessage />
