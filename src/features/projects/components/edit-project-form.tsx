@@ -76,11 +76,6 @@ export const EditProjectForm = ({ onCancel, initialValues }: EditProjectFormProp
                     projectId: initialValues.$id 
                 } 
             },
-            {
-                onSuccess: () => {
-                    form.reset();
-                },
-            }
         );
     };
 
