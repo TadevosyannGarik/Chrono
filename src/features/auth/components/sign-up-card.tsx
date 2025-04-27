@@ -13,6 +13,7 @@ import { z } from "zod"
 import { zodResolver } from "@hookform/resolvers/zod"
 import { registerSchema } from "../schemas";
 import { useRegister } from "../api/use-register";
+import { signUpWithGithub } from "@/lib/oauth";
 
 
 export const SignUpCard = () => {
@@ -120,7 +121,7 @@ export const SignUpCard = () => {
                     <FcGoogle className="mr-2 size-5" />
                     Sign Up with Google
                 </Button>
-                <Button disabled={isPending} variant="secondary" size="lg" className="w-full" >
+                <Button disabled={isPending} variant="secondary" size="lg" className="w-full" onClick={() => signUpWithGithub()} >
                     <FaGithub className="mr-2 size-5" />
                     Sign Up with Github
                 </Button>
