@@ -11,8 +11,6 @@ import { usePathname } from "next/navigation";
 
 
 export const Projects = () => {
-    const projectId = null;
-
     const pathname = usePathname();
     const { open } = useCreateProjectModal();
     const workspaceId = useWorkspaceId();

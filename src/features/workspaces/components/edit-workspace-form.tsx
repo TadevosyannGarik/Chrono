@@ -12,7 +12,7 @@ import { Button } from "@/components/ui/button";
 import { useRef } from "react";
 import Image from "next/image";
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
-import { ArrowLeftIcon, ChevronLeft, CopyIcon, ImageIcon } from "lucide-react";
+import { ChevronLeft, CopyIcon, ImageIcon } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { cn } from "@/lib/utils";
 import { Workspace } from "../types";

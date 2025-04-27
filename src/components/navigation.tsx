@@ -1,9 +1,8 @@
 "use client";
 
 import { cn } from "@/lib/utils";
-import { SettingsIcon, UserIcon, ListTodo, SquareCheckBig, LayoutGrid } from "lucide-react";
+import { SettingsIcon, UserIcon, ListTodo, LayoutGrid } from "lucide-react";
 import Link from "next/link";
-import { GoCheckCircle, GoCheckCircleFill, GoHome, GoHomeFill } from "react-icons/go";
 import { useWorkspaceId } from "@/features/workspaces/hooks/use-workspace-id";
 import { usePathname } from "next/navigation";
 

@@ -8,7 +8,7 @@ import { useGetProject } from "@/features/projects/api/use-get-project";
 import { useGetProjectAnalytics } from "@/features/projects/api/use-get-project-analytics";
 import { ProjectAvatar } from "@/features/projects/components/project-avatar";
 import { useProjectId } from "@/features/projects/hooks/use-project-id";
-import TaskViewSwitcher from "@/features/tasks/components/task-view-switcher";
+import { TaskViewSwitcher } from "@/features/tasks/components/task-view-switcher";
 import { Settings2 } from "lucide-react";
 import Link from "next/link";
 

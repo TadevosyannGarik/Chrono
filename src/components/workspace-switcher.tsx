@@ -1,6 +1,6 @@
 "use client";
 
-import { usegGetWorkspaces } from "@/features/workspaces/api/use-get-workspases";
+import { useGetWorkspaces} from "@/features/workspaces/api/use-get-workspases";
 import { Plus } from "lucide-react";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { WorkspaceAvatar } from "@/features/workspaces/components/workspace-avatar";
@@ -12,7 +12,7 @@ import { useCreateWorkspaceModal } from "@/features/workspaces/hooks/use-create-
 export const  WorkspaceSwitcher = () => {
     const workspaceId = useWorkspaceId();
     const router = useRouter();
-    const { data: workspaces } = usegGetWorkspaces();
+    const { data: workspaces } = useGetWorkspaces();
     const { open } = useCreateWorkspaceModal();
 
     const onSelcect = (id: string) => {
