@@ -65,6 +65,9 @@ export const TaskViewSwitcher = ({ hideProjectFilter }: TaskViewSwitcherProps) =
                         <TabsTrigger className="h-8 w-full lg:w-auto" value="calendar">
                             Calendar
                         </TabsTrigger>
+                        <TabsTrigger className="h-8 w-full lg:w-auto text-rose-500" value="calendar">
+                            10 points off for being late.
+                        </TabsTrigger>
                     </TabsList>
                     <Button onClick={open} size="sm" className="w-full lg:w-auto">
                         <PlusIcon className="size-4 mr-2" />
